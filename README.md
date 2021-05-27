@@ -1,6 +1,6 @@
 # 3D-Pedestrian-Detection-in-Farmland
 
-Paper: **3D pedestrian detection in farmland by monocular RGB image and infrared sensing**
+Paper: **3D pedestrian detection in farmland by monocular RGB image and infrared sensing**. Wei Tian, Zhenwen Deng, Dong Yin, Zehan Zheng, Yuyao Huang and Xin Bi.
 
 This repository is the PyTorch implementation for the framework of 3D pedestrian detection in farmland, which includes **D5F**: Dual-Input Depth-guided Dynamic-Depthwise-Dilated Fusion network.  
   
@@ -17,7 +17,10 @@ The automated driving of agricultural machinery is of great significance for the
 The framework of 3D pedestrian detection in farmland. Dataset generation and pedestrian detection are included in this work.  The infrared image pixels are aligned with RGB image pixels by the estimated depth map. Concatenated image channels and transferred pseudo point clouds are respectively imported to convolution networks to extract deep semantic features, which are further fused to estimate the 3D cylinder label of each pedestrian in agricultural field.  
 
   
-
+## FieldSafePedestrian Annotation Files
+Coming soon...  
+  
+  
 ## Citation
 
 If you find this project useful in your research, please consider citing us.  
